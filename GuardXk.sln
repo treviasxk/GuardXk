@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardXk.Encrypt", "GuardXk.Encrypt\GuardXk.Encrypt.csproj", "{8F2F8301-3B89-4B9B-9EEE-85C13CB71A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardXk", "GuardXk\GuardXk.csproj", "{4C3D198C-D1A9-42FC-9D61-863359F99DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardXk.Test", "GuardXk.Test\GuardXk.Test.csproj", "{6B2EBC19-6F65-408A-94A5-9E6D67574C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2F8301-3B89-4B9B-9EEE-85C13CB71A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2F8301-3B89-4B9B-9EEE-85C13CB71A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2F8301-3B89-4B9B-9EEE-85C13CB71A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2F8301-3B89-4B9B-9EEE-85C13CB71A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3D198C-D1A9-42FC-9D61-863359F99DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3D198C-D1A9-42FC-9D61-863359F99DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3D198C-D1A9-42FC-9D61-863359F99DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3D198C-D1A9-42FC-9D61-863359F99DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2EBC19-6F65-408A-94A5-9E6D67574C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2EBC19-6F65-408A-94A5-9E6D67574C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2EBC19-6F65-408A-94A5-9E6D67574C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2EBC19-6F65-408A-94A5-9E6D67574C43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B985CEB4-DEFF-4D1B-B620-9259614DB6DC}
+	EndGlobalSection
+EndGlobal
