@@ -5,9 +5,13 @@ using GuardXk.Security;
 namespace GuardXk{
     public class GXK{
         static Cryptography Cryptography {get;}
+        public static Processes Process {get;}
         internal static ConcurrentQueue<VariableGXK> Values;
+        public static InjectionDLL InjectionDLL {get;}
         static GXK(){
             Cryptography = new Cryptography();
+            Process = new Processes();
+            InjectionDLL = new InjectionDLL();
             Values = new ConcurrentQueue<VariableGXK>();
         }
 

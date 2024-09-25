@@ -11,5 +11,8 @@ public class Program{
         Console.WriteLine("Name: {0}", Name.Value);
         Console.WriteLine("Life: {0}", Life.Value);
         Console.WriteLine("Distance: {0}m", Distance.Value);
+        GXK.Process.Start();
+        GXK.InjectionDLL.Check();
+        Console.ReadLine();
     }
 }
